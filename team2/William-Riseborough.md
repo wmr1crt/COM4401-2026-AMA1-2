@@ -5,8 +5,8 @@ My name is **WILL**
 *I have an interest in networking*
 
 > Skills I need to develop are:
-- understanding how networks are formed
-- the fundamentals of data security
+- Adaptability
+- Problem Solving
 
 1. I support Ipswich Town
 2. I am originally from  the south east

@@ -1,4 +1,4 @@
--- 1. Create EmployeeRoles (Parent table for WorkstationBuilds and Recommendations)
+-- 1. Create EmployeeRoles
 CREATE TABLE EmployeeRoles (
     RoleID INT PRIMARY KEY AUTO_INCREMENT,
     RoleName VARCHAR(50) NOT NULL,
@@ -22,7 +22,7 @@ Values(
 3750.00);
 select * from EmployeeRoles;
 
--- 2. Create WorkstationBuilds (Child of EmployeeRoles, Parent of BuildItems)
+-- 2. Create WorkstationBuilds
 CREATE TABLE WorkstationBuilds (
     BuildID INT PRIMARY KEY AUTO_INCREMENT,
     RoleID INT NOT NULL,
@@ -36,7 +36,7 @@ Values(1,"Administrative Assistant",
 
   select * from WorkstationBuilds;
 
--- 3. Create Recommendations (Child of EmployeeRoles)
+-- 3. Create Recommendations
 CREATE TABLE Recommendations (
     RecommendationID INT PRIMARY KEY AUTO_INCREMENT,
     RoleID INT NOT NULL,
@@ -56,7 +56,7 @@ XIDAX case fans and the CiT Silent case as a collective will keep the internal t
 
 select * from Recommendations;
 
--- 4. Create BuildItems (Child of WorkstationBuilds)
+-- 4. Create BuildItems
 CREATE TABLE BuildItems (
     ItemID INT PRIMARY KEY AUTO_INCREMENT,
     BuildID INT NOT NULL,

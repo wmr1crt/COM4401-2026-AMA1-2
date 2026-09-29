@@ -32,7 +32,10 @@ CREATE TABLE WorkstationBuilds (
 );
 INSERT INTO WorkstationBuilds(RoleID,BuildName,Source)
 Values(1,"Administrative Assistant",
-  "https://xidax.com/pages/configurator-x-6?cfg=X6-0ACM105HC102ZX126RJ1268L1269310CTQ109X810A2F601XN126QQ10C1G1031U10CXK102FD1-T01I8S-6J");
+  "https://xidax.com/pages/configurator-x-6?cfg=X6-0ACM105HC102ZX126RJ1268L1269310CTQ109X810A2F601XN126QQ10C1G1031U10CXK102FD1-T01I8S-6J"),
+  (4,"3D Visualisation PC",
+  "https://uk.buildcores.com/builds/oxD7YeLQJ?share=true");
+
 
   select * from WorkstationBuilds;
 
@@ -52,7 +55,19 @@ removing the cost and power draw of a separate graphics card while still being  
 Supported by 8GB of XIDAX RAM and a NVMe 2.0 SSD the system will be able to multitask across office applications, spreadsheets and web software seamlessly. 
 The ASUS Prime B550 provides a platform of stability with built in network card allowing connecting to the network be easy wired or not. 
 The 80 PLUS Gold power supply ensures running costs are kept down while also providing surge protection to keep files safe. finally the combination CPU cooler, 
-XIDAX case fans and the CiT Silent case as a collective will keep the internal temperatures low and the noise whisper quiet during meetings.",0,"add notes");
+XIDAX case fans and the CiT Silent case as a collective will keep the internal temperatures low and the noise whisper quiet during meetings.",0,"add notes"),
+(4,"This build focuses on Graphical and Computational preformance.
+The 20 core Intel i7 14700KF should have enough parallel prosesing power for rending programs and multi tasking.
+32gb of ddr5 RAM shoudl be sufficent for such multitasking, and memory intensive programs.
+The MSI PRO Z790-P Motherboard has plenty of IO for further storage expansion, fast 2.5GB networkig for internet and possible NAS file transfers will be faster!
+The main budget cost went into the RTX 5080 withh 16GB of vram, as 3D rendering is the focus, this GPU should provide adiquet horsepower to such workloads.
+A basic heatsink cooler is used for reliability and cost.
+1 small m.2 is use for the operatinng OS esuring fast load times,
+the second larger m.2 contains active project files and computer programs,
+and finaly the slower SATA drive is used for arcived work/lesser used files/programs.
+A reliable COrsair RM750x power supply was chosen for its 100w headroom.
+Finally a cheep smart-lookig Corsair case was chosen with 2 extra Arctic fans for a 3-in-2-out air flow configuration to keep the build cool anf quiet.",
+0,"N/A");
 
 select * from Recommendations;
 
@@ -84,9 +99,20 @@ Values(1,"RAM","XIDAX Ultra 8GB","DDR4 3200MHz",63.29),
 
 (1,"Fan","XIDAX Standard Fans","10,000 hour guarantee",21.49),
 
-(1,"CPU Cooler","Cooler Master Hyper 212 Spectrum V3","AM4 Socket, 190W",35.24);
+(1,"CPU Cooler","Cooler Master Hyper 212 Spectrum V3","AM4 Socket, 190W",35.24),
+
+
+
+(2,"RAM","Corsair Vengeance RGB 32GB","DDR5 6000MHz",449.99),
+(2,"CPU","Intel Core i7 14700KFIntel Core i7 14700KF","20 Core, 28 Thread,3.4/5.5GHz",324.97),
+(2,"GPU","MSI GeForce RTX 5080 16G GAMING TRIO OC","16GB vRAM",1399.95),
+(2,"STORAGE","Kingston KC3000 512GB SSD","M.2 PCIe 4.0 NVMe",124.99),
+(2,"STORAGE","Kingston KC3000 2TB SSD","M.2 PCIe 4.0 NVMe",305.96),
+(2,"STORAGE","SanDisk SSD PLUS 2TB SSD","2.5inch SATA 6.0 Gb/s",263.19),
+(2,"Power Supply","Corsair RM750x"," 750W Fully Modular 80+ Gold Certified",134.99),
+(2,"CPU Cooler","ARCTIC Freezer 36","Heatsink",22.99),
+(2,"Case","Corsair 3200D RS","Black",59.99),
+(2,"Fans","ARCTIC P14 Pro","2x , 140mm Black",13.96);
 
 
 select * from BuildItems;
-
-

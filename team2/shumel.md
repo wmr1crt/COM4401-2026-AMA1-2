@@ -13,10 +13,10 @@ cheat sheet for .md
 
 **Markdown Cheat Sheet** 
 
-This is the 
+This is the https://www.markdownguide.org/
 
 This Markdown sheet gives a quick overviews of all the syntax elements . If you need more 
-information about these elements, refer to the reference guides for basic syntax.
+information about these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax/).
 
 **basic syntax**
 

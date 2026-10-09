@@ -17,7 +17,7 @@
 | Member | Stage / area owned | What they'll deliver |
 |--------|--------------------|----------------------|
 |Shumel | Analysis | Requirements list and IPO (Input–Process–Output) chart |
-|Amir | Design | Flowchart / pseudocode and test plan design |
+|Amin | Design | Flowchart / pseudocode and test plan design |
 |Patryk | Build | Working Flowgorithm solution matching the design |
 |Will | Testing | Test table run with normal, abnormal and extreme data |
 
@@ -29,7 +29,7 @@
 
 R = Responsible · A = Accountable · C = Consulted · I = Informed
 
-| Task | Shumel | Amir | Patryk | Will |
+| Task | Shumel | Amin | Patryk | Will |
 |------|----------|----------|----------|----------|
 | Requirements analysis (what the program must do) |I |A |C |R |
 | IPO chart (Input – Process – Output) |I |A |C |R |

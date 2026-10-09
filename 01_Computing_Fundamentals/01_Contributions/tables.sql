@@ -36,7 +36,7 @@ Values(1,"Administrative Assistant",
   (4,"3D Visualisation PC",
   "https://uk.buildcores.com/builds/oxD7YeLQJ?share=true"),
   (3,"??","Architect/CAD Designer"),
-  (2,"???","Project Manager");
+  (2,"https://www.buildcores.com/setup/BNCp2NL8s","Project Manager");
 
 
   select * from WorkstationBuilds;

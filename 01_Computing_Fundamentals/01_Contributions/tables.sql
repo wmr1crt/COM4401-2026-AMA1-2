@@ -117,23 +117,23 @@ Values(1,"RAM","XIDAX Ultra 8GB","DDR4 3200MHz",63.29),
 (2,"Case","Corsair 3200D RS","Black",59.99),
 (2,"Fans","ARCTIC P14 Pro","2x , 140mm Black",13.96),
 
-(3,"case","Lian Li A3 ATX mini Black Mesh side panel","A3-mATX",19.98),
+(3,"case","BGears Mid Tower Black Glass Side Panel","B-voguish ATX",19.98),
 
-(3,"CPU","Intel Core Ultra 5","245KF",163.99),
+(3,"CPU","Intel Core Ultra 6","285KF",509.26),
 
-(3,"Motherboard","ASUS PRIME B860M-A","LGA1851 DDR5",149.99),
+(3,"Motherboard","ASRock Steel Legend B860","DDR5 ATX",149.99),
 
-(3,"GPU","Palit GeForce RTX 5060","8GB GDDR7",389.99),
+(3,"GPU","Windforce OC SFF GeForce RTX 5070","12GB GDDR7",799.99),
 
-(3,"RAM","Teamgroup T-Force Vulcana Black","32GB",379.99),
+(3,"RAM","Crucial Pro Black","2X16GB",309.99),
 
-(3,"CPU Cooler","Theramalright Assassin","120mm Silver",15.00),
+(3,"CPU Cooler","Theramalright Assassin","120mm Silver",17.90),
 
-(3,"Storage","Teamgroup MP33","1TB m.2",29.66),
+(3,"Storage","Western Digital Green SN350","2TB SSD m.2",246.00),
 
-(3,"Power Supply","Straight Power 12 Black","750W",19.99),
+(3,"Power Supply","Thermal Smart Certified","700W",54.99),
 
-(3,"Case Fan","Arctic P-12","3X 120mm Black",2.99),
+(3,"Case Fan",darkFlash INF34 ARGB PWM","3X 120mm Black",38.42),
 
 (4,"????","???","????",0.00);
 

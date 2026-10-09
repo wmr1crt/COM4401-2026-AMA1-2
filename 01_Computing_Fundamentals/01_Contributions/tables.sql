@@ -34,7 +34,9 @@ INSERT INTO WorkstationBuilds(RoleID,BuildName,Source)
 Values(1,"Administrative Assistant",
   "https://xidax.com/pages/configurator-x-6?cfg=X6-0ACM105HC102ZX126RJ1268L1269310CTQ109X810A2F601XN126QQ10C1G1031U10CXK102FD1-T01I8S-6J"),
   (4,"3D Visualisation PC",
-  "https://uk.buildcores.com/builds/oxD7YeLQJ?share=true");
+  "https://uk.buildcores.com/builds/oxD7YeLQJ?share=true"),
+  (3,"??","Architect/CAD Designer"),
+  (2,"???","Project Manager");
 
 
   select * from WorkstationBuilds;
@@ -66,8 +68,9 @@ A basic heatsink cooler is used for reliability and cost.
 the second larger m.2 contains active project files and computer programs,
 and finaly the slower SATA drive is used for arcived work/lesser used files/programs.
 A reliable COrsair RM750x power supply was chosen for its 100w headroom.
-Finally a cheep smart-lookig Corsair case was chosen with 2 extra Arctic fans for a 3-in-2-out air flow configuration to keep the build cool anf quiet.",
-0,"N/A");
+Finally a cheep smart-lookig Corsair case was chosen with 2 extra Arctic fans for a 3-in-2-out air flow configuration to keep the build cool anf quiet.",0,"???"),
+(3,"N/A",0,"??"),
+(2,"???",0,"???");
 
 select * from Recommendations;
 
@@ -112,15 +115,26 @@ Values(1,"RAM","XIDAX Ultra 8GB","DDR4 3200MHz",63.29),
 (2,"Power Supply","Corsair RM750x"," 750W Fully Modular 80+ Gold Certified",134.99),
 (2,"CPU Cooler","ARCTIC Freezer 36","Heatsink",22.99),
 (2,"Case","Corsair 3200D RS","Black",59.99),
-(2,"Fans","ARCTIC P14 Pro","2x , 140mm Black",13.96);
+(2,"Fans","ARCTIC P14 Pro","2x , 140mm Black",13.96),
 
-(1,"case","Lian Li A3 ATX mini Black Mesh side panel","A3-mATX",19.98),
-(1,"CPU","Intel Core Ultra 5","245KF",163.99),
-(1,"Motherboard","ASUS PRIME B860M-A","LGA1851 DDR5",149.99),
-(1,"GPU","Palit GeForce RTX 5060","8GB GDDR7",389.99),
-(1,"RAM","Teamgroup T-Force Vulcana Black","32GB",379.99),
-(1,"CPU Cooler","Theramalright Assassin","120mm Silver"15.00),
-(1,"Storage","Teamgroup MP33","1TB m.2",29.66),
-(1,"Power Supply","Straight Power 12 Black","750W",19.99),
-(1,"Case Fan","Arctic P-12","3X 120mm Black",2.99),
+(3,"case","Lian Li A3 ATX mini Black Mesh side panel","A3-mATX",19.98),
+
+(3,"CPU","Intel Core Ultra 5","245KF",163.99),
+
+(3,"Motherboard","ASUS PRIME B860M-A","LGA1851 DDR5",149.99),
+
+(3,"GPU","Palit GeForce RTX 5060","8GB GDDR7",389.99),
+
+(3,"RAM","Teamgroup T-Force Vulcana Black","32GB",379.99),
+
+(3,"CPU Cooler","Theramalright Assassin","120mm Silver",15.00),
+
+(3,"Storage","Teamgroup MP33","1TB m.2",29.66),
+
+(3,"Power Supply","Straight Power 12 Black","750W",19.99),
+
+(3,"Case Fan","Arctic P-12","3X 120mm Black",2.99),
+
+(4,"????","???","????",0.00);
+
 select * from BuildItems;

@@ -8,7 +8,7 @@
 | **Team name** |Team 2 |
 | **Repository** | https://github.com/wmr1crt/COM4401-2026-AMA1-2|
 | **Submission date** | Friday 23 October 2026 |
-| **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
+| **How we'll keep in touch** | Weekly check in on Fridays at the end of sessions |
 
 ---
 

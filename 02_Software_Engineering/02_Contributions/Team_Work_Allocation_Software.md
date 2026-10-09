@@ -32,13 +32,13 @@ R = Responsible · A = Accountable · C = Consulted · I = Informed
 | Task | Shumel | Amir | Patryk | Will |
 |------|----------|----------|----------|----------|
 | Requirements analysis (what the program must do) |I |A |C |R |
-| IPO chart (Input – Process – Output) |R |A |C |I |
+| IPO chart (Input – Process – Output) |I |A |C |R |
 | Flowchart / pseudocode design |C |R |A |I |
 | Test plan (normal, abnormal, extreme data) |I |R |A |C |
 | Flowgorithm build (variables, input, processing) |C |I |R |A |
 | Flowgorithm build (decisions, loops, output) |I |A |R |C |
 | Validation / error handling |I |C |A |R |
-| Testing against the plan & recording results |I |A |C |R |
+| Testing against the plan & recording results |R|I |C |A |
 | Deployment notes (how it would be rolled out) |R |A |C |I |
 | Ethical / professional considerations write-up |A |R |C |I |
 | Final team walkthrough & consistency check |R |C |A |I |

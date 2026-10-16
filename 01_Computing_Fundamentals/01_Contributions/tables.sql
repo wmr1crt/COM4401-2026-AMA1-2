@@ -35,7 +35,7 @@ Values(1,"Administrative Assistant",
   "https://uk.buildcores.com/builds/1DjIz9hFc?share=true "),
   (4,"3D Visualisation PC",
   "https://uk.buildcores.com/builds/oxD7YeLQJ?share=true"),
-  (3,"??","Architect/CAD Designer"),
+  (3,"Architect/CAD Designer","https://uk.buildcores.com/setup/-QwKHRg5f"),
   (2,"https://www.buildcores.com/setup/BNCp2NL8s","Project Manager");
 
   select * from WorkstationBuilds;
@@ -69,7 +69,13 @@ and finaly the slower SATA drive is used for arcived work/lesser used files/prog
 A reliable COrsair RM750x power supply was chosen for its 100w headroom.
 Finally a cheep smart-lookig Corsair case was chosen with 2 extra Arctic fans for a 3-in-2-out air flow configuration to keep the build cool anf quiet.",0),
     
-(3,"N/A",0),
+(3,"This build focuses on performance and efficiency.
+    Powered by the AMD Ryzen 7 9700x, this CPU allows for the performance to work at its best capacity when creating, navigating and editing drawings.
+    Supported by 32GB DDR5 RAM, it will be able to utilise a multitude of different softwares and collaborative applications simultaneously. Additionally, 
+    it has a 1TB NVMe SSD which is essential in a professional Design environment. 
+    The Thermalright Peerless Assassin 120 SE allows for the CPU to run at maximum efficiency due to the essential cooling that it will need.
+    The NVIDIA RTX 4070 12GB provides smooth performance and easy use of navigation. It will also be able to handle detailed models and rendering tasks. 
+    Additionally to this, its also cost effective.",0),
     
 (2,"This build is built to be cost effective and reliable enough to run softwares.
     The Glass side panel lets the user to see through and look at the components and offers space for standard motherboards and full sized graphics cards.
@@ -153,4 +159,5 @@ Values(1,"RAM","Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200 CL16 Black","DDR4 
 (4,"????","???","????",0.00);
 
 select * from BuildItems;
+
 

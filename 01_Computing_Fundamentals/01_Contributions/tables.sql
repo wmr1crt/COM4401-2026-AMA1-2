@@ -161,3 +161,61 @@ Values(1,"RAM","Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200 CL16 Black","DDR4 
 select * from BuildItems;
 
 
+-- Query 2: Just the names and budgets
+SELECT RoleName, BudgetPerUnit FROM EmployeeRoles;
+
+
+-- Query 3: The higher-budget roles
+SELECT RoleName, BudgetPerUnit 
+FROM EmployeeRoles 
+WHERE BudgetPerUnit > 1000;
+
+
+-- Query 4: Roles by team size
+SELECT RoleName, StaffCount 
+FROM EmployeeRoles 
+ORDER BY StaffCount DESC;
+
+
+-- Query 5: Find one build's items
+SELECT * FROM BuildItems 
+WHERE BuildID = 1;
+
+-- Query 6: Count the items in a build
+SELECT COUNT(*) AS TotalItems 
+FROM BuildItems 
+WHERE BuildID = 1;
+
+
+-- Query 7: Total cost of one build
+SELECT SUM(Cost) AS TotalHardwareCost 
+FROM BuildItems 
+WHERE BuildID = 1;
+
+
+-- Query 8: Cost of every build
+SELECT BuildID, SUM(Cost) AS TotalCost 
+FROM BuildItems 
+GROUP BY BuildID 
+ORDER BY TotalCost DESC;
+
+
+-- Query 9: Which role is each build for?
+SELECT WorkstationBuilds.BuildID, WorkstationBuilds.BuildName, EmployeeRoles.RoleName 
+FROM WorkstationBuilds 
+JOIN EmployeeRoles ON WorkstationBuilds.RoleID = EmployeeRoles.RoleID;
+
+
+-- Query 10: Items with their build and role
+SELECT BuildItems.ItemName, WorkstationBuilds.BuildName, EmployeeRoles.RoleName 
+FROM BuildItems
+JOIN WorkstationBuilds ON BuildItems.BuildID = WorkstationBuilds.BuildID
+JOIN EmployeeRoles ON WorkstationBuilds.RoleID = EmployeeRoles.RoleID;
+
+
+-- Query 11: Spend per role (Challenge)
+SELECT EmployeeRoles.RoleName, SUM(BuildItems.Cost) AS TotalHardwareCost 
+FROM EmployeeRoles
+JOIN WorkstationBuilds ON EmployeeRoles.RoleID = WorkstationBuilds.RoleID
+JOIN BuildItems ON WorkstationBuilds.BuildID = BuildItems.BuildID
+GROUP BY EmployeeRoles.RoleName;
